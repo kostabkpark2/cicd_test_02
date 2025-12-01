@@ -32,7 +32,7 @@ jobs:
       - name: 빌드된 jar 파일 이름변경 및 이동
         run: |
           pwd
-          mv ./build/libs/*SNAPSHOT.JAR ./app.jar
+          mv ./build/libs/*SNAPSHOT.jar ./app.jar
           ls -al
 
       - name: EC2 로 jar 파일을 전송
